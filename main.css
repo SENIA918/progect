@@ -1,0 +1,248 @@
+html {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Lora', serif;
+  font-family: 'Playfair Display', serif;
+}
+body {
+  margin: 0 10px;
+}
+.start,
+h4,
+.fusion-footer,
+.btn_block,
+.btn_service {
+  text-align: center;
+}
+.name {
+  padding-top: 20px;
+  letter-spacing: 20px; 
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 2px 3px;
+}
+.name_name {
+  letter-spacing: 20px; 
+  font-size: 18px;
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 25px;
+}
+.name b {
+  text-shadow: 1px 1px;
+  font-size: 40px; 
+}
+.nav_block {
+  display: flex;
+  justify-content: center;
+}
+.nav_block li {
+  margin-bottom: 20px; 
+}
+.nav_block li a {
+  letter-spacing: 2px; 
+  font-size: 18px;
+  margin: 0 30px;
+  color: black;
+}
+.image {
+  margin: 0 auto;
+}
+.content_contact {
+  display: flex;
+  justify-content: center;
+}
+.texts {
+  font-size: 18px;
+  padding-top: 15px;
+}
+.contact {
+  max-width: 900px;
+  letter-spacing: 2px; 
+  font-size: 18px;
+  padding: 20px 0;
+}
+.contact_cont {
+  max-width: 670px;
+  letter-spacing: 2px; 
+  font-size: 18px;
+  text-align: center;
+}
+.accordion {
+  background-color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: solid black 1px;
+  transition: 0.2s;
+}
+.active, 
+.accordion:hover {
+  color:white;
+  background-color: rgb(53, 50, 50);
+}
+.accordion_contact {
+  display: flex;
+  align-items: center;
+  padding: 15px 50px;
+  margin: 40px auto;
+  border: solid black 1px;
+  background-color: white;
+}
+.accordion_contact a {
+  color: black;
+}
+.accordion_contact:hover {
+  color:white;
+  background-color: rgb(80, 76, 76);
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+.heading {
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px silver; 
+  margin: 20px;
+}
+.card {
+  margin-left: 80px;
+}
+.content {
+  letter-spacing: 2px; 
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  margin: 50px;
+}
+.row {
+  padding: 10px;
+}
+ .card-title,
+ .card-text,
+ .card-body_left,
+ .card-body_right { 
+  letter-spacing: 2px; 
+  font-size: 18px;
+  margin: 30px 20px;
+  text-align: center;
+}
+.row-right {
+  display: flex;
+  text-align: center;
+}
+.btn a {
+  border: solid black 1px;
+  padding: 15px 25px;
+  letter-spacing: 2px; 
+  font-size: 16px;
+  color: black;
+}
+.btn a:hover {
+  transition: 0.2s;
+  background-color: rgb(65, 61, 61);
+  color: white;
+}
+.footer_conten h3 {
+  padding: 30px 0;
+}
+.footer_content {
+  margin-top: 50px;
+  letter-spacing: 2px; 
+  font-size: 14px;
+  text-align: center;
+}
+p {
+  line-height: 35px;
+  letter-spacing: 2px;
+}
+.box_one img {
+  max-width: 600px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer_conten h3,
+.box_two { 
+  margin: 30px;
+}
+.content_heading {
+  letter-spacing: 4px; 
+  text-align: center;
+}
+.port,
+h5 {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.content_contact {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+form {
+  margin: 0 auto;
+  max-width: 700px;
+}
+input {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border: solid black 1px;
+}
+.col {
+  padding: 10px;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  border: solid black 1px;
+}
+label {
+  margin-left: 38%;
+  letter-spacing: 2px; 
+  padding: 10px 25px;
+  border: 1px solid black;
+}
+label:hover {
+  background-color: rgb(65, 61, 61);
+  color: white;
+  transition: 0.4s;
+}
+.footer_icon {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.footer_icon img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+@media all and (max-width: 920px) {
+  .nav {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .card-body_left {
+  margin: 0 auto;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  label {
+    margin-left: auto;
+  }
+  .row-right {
+    flex-direction: column-reverse;
+  }
+}
